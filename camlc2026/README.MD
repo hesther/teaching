@@ -13,7 +13,7 @@ conda env create -f environment.yml
 conda activate chemtorch
 git clone https://github.com/heid-lab/chemtorch.git
 cd chemtorch
-pip install rdkit numpy==1.26.4 scikit-learn pandas torch hydra-core wandb ipykernel jupyter
+pip install rdkit numpy==1.26.4 scikit-learn pandas torch hydra-core wandb ipykernel jupyter matplotlib
 pip install torch_geometric
 pip install torch_scatter torch_sparse torch_cluster torch_spline_conv -f https://data.pyg.org/whl/torch-2.10.0+cpu.html
 pip install -e .
