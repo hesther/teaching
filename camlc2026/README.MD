@@ -1,9 +1,9 @@
 This folder contains materials for the ChemProp and ChemTorch workshop by Esther Heid, at CAMLC 2026.
 
-## Installation instructions part 2 (ChemTorch):
+## Installation instructions:
 
 ### Google Colab: 
-Nothing, just click on `Workshop_ChemTorch_Demo_Jupyter.ipynb`, and then click the "Launch in Colab" button
+Just click on `Workshop_ChemTorch_Demo_Jupyter.ipynb`, and then click the "Launch in Colab" button (no installation required).
 
 ### Own device:
 To setup your environment: 
