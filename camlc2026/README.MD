@@ -3,7 +3,7 @@ This folder contains materials for the ChemProp and ChemTorch workshop by Esther
 ## Installation instructions:
 
 ### Google Colab: 
-Just click on `Workshop_ChemTorch_Demo_Jupyter.ipynb`, and then click the "Launch in Colab" button (no installation required).
+Just click on `Workshop_ChemTorch_Demo.ipynb`, and then click the "Launch in Colab" button (no installation required).
 
 ### Own device:
 To setup your environment: 
