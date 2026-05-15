@@ -1,0 +1,22 @@
+name: chemtorch
+channels:
+  - conda-forge
+dependencies:
+  - python>=3.10
+  - pip
+  - pip:
+      - uv>=0.4.0
+      - rdkit
+      - numpy==1.26.4
+      - scikit-learn
+      - pandas
+      - torch==2.10.0
+      - hydra-core
+      - wandb
+      - ipykernel
+      - jupyter
+      - torch_geometric
+      - torch_scatter -f https://data.pyg.org/whl/torch-2.10.0+cpu.html
+      - torch_sparse -f https://data.pyg.org/whl/torch-2.10.0+cpu.html
+      - torch_cluster -f https://data.pyg.org/whl/torch-2.10.0+cpu.html
+      - torch_spline_conv -f https://data.pyg.org/whl/torch-2.10.0+cpu.html
