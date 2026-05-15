@@ -8,15 +8,17 @@ Nothing, just click on `Workshop_ChemTorch_Demo_Jupyter.ipynb`, and then click t
 ### Own device:
 To setup your environment: 
 ```
-git clone https://github.com/heid-lab/chemtorch.git
-cd chemtorch
+wget https://raw.githubusercontent.com/hesther/teaching/refs/heads/main/camlc2026/environment.yml
 conda env create -f environment.yml  
 conda activate chemtorch
-uv sync --extra cpu && uv run scripts/install_pyg_deps.py --run 
+git clone https://github.com/heid-lab/chemtorch.git
+cd chemtorch
+pip install rdkit numpy==1.26.4 scikit-learn pandas torch hydra-core wandb ipykernel jupyter
+pip install torch_geometric
+pip install torch_scatter torch_sparse torch_cluster torch_spline_conv -f https://data.pyg.org/whl/torch-2.10.0+cpu.html
 pip install -e .
-conda install jupyter
 ```
-(if you would like to install with an accelerator, e.g. a gpu, specificy it instead of `cpu`, e.g. `macos`, `cu128`, etc.
+(if you would like to install with an accelerator, e.g. a gpu, specificy it instead of `cpu`, `cu128`, etc.
 Then, download the notebook and start coding:
 ```
 wget https://raw.githubusercontent.com/hesther/teaching/refs/heads/main/camlc2026/Workshop_ChemTorch_Demo_Jupyter.ipynb
