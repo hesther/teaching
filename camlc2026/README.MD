@@ -12,7 +12,8 @@ git clone https://github.com/heid-lab/chemtorch.git
 cd chemtorch
 conda env create -f environment.yml  
 conda activate chemtorch
-uv sync --extra cpu && uv run scripts/install_pyg_deps.py --run   
+uv sync --extra cpu && uv run scripts/install_pyg_deps.py --run 
+pip install -e .
 conda install jupyter
 ```
 (if you would like to install with an accelerator, e.g. a gpu, specificy it instead of `cpu`, e.g. `macos`, `cu128`, etc.
