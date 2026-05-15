@@ -17,6 +17,7 @@ pip install rdkit numpy==1.26.4 scikit-learn pandas torch hydra-core wandb ipyke
 pip install torch_geometric
 pip install torch_scatter torch_sparse torch_cluster torch_spline_conv -f https://data.pyg.org/whl/torch-2.10.0+cpu.html
 pip install -e .
+pip install chemprop
 ```
 (if you would like to install with an accelerator, e.g. a gpu, specificy it instead of `cpu`, `cu128`, etc.
 Then, download the notebook and start coding:
