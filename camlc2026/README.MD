@@ -1,7 +1,7 @@
 This folder contains materials for the ChemProp and ChemTorch workshop by Esther Heid, at CAMLC 2026.
 
 ### Slides
-Please see [2026_06_CAMLC.pdf](https://github.com/hesther/teaching/blob/main/camlc2026/2026_06_CAMLC.pdf])
+Please see [2026_06_CAMLC.pdf](https://github.com/hesther/teaching/blob/main/camlc2026/2026_06_CAMLC.pdf)
 
 ## Installation instructions:
 
